@@ -1,4 +1,4 @@
-FROM node:0.10.32
+FROM tcnksm/centos-node:0.10
 
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
